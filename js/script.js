@@ -97,17 +97,17 @@ function getTotalLevels(){
 
 function setPizzaSkin(totalLevels){
   if(totalLevels >= 10 && totalLevels < 25){
-    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl2.png)`
+    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl2.svg)`
     levelGoal.textContent = `Next pizza upgrade on level 25`
   }else if(totalLevels >=25 && totalLevels < 50){
-    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl3.png)`
+    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl3.svg)`
     levelGoal.textContent = `Next pizza upgrade on level 50`
   }else if(totalLevels >= 50 && totalLevels < 150){
-    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl4.png)`
+    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl4.svg)`
     levelGoal.textContent = `Next pizza upgrade on level 150`
 
   }else if(totalLevels >= 150){
-    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl5.png)`
+    clickableEl.style.backgroundImage = `url(./img/pizza-lvls/pizza-lvl5.svg)`
     levelGoal.textContent = `Your pizza is perfect`
   }
 }

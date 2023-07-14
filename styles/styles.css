@@ -104,7 +104,7 @@ body {
   margin-right: auto;
   border-radius: 50%;
   border: none;
-  background-image: url(../img/pizza-lvls/pizza-lvl1.png);
+  background-image: url(../img/pizza-lvls/pizza-lvl1.svg);
   background-size: cover;
 }
 @media only screen and (min-width: 768px) {
