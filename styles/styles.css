@@ -102,6 +102,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+  border: none;
+  background-image: url(../img/pizza-lvls/pizza-lvl1.png);
+  background-size: cover;
 }
 @media only screen and (min-width: 768px) {
   .clickable-element {
@@ -201,17 +204,20 @@ body {
   }
 }
 
-.update-btn {
+.update-cost {
   margin-bottom: 8px;
   font-size: 12px;
   text-align: center;
+  max-width: 100px;
+  width: fit-content;
+  padding: 1px 4px;
   font-weight: 600;
   border: none;
   border-radius: 4px;
   background-color: #f0c789;
 }
 @media only screen and (min-width: 1024px) {
-  .update-btn {
+  .update-cost {
     font-size: 16px;
     font-weight: 600;
   }
@@ -230,4 +236,43 @@ body {
 
 .animate {
   animation: pizza-animation 100ms;
+}
+
+.progress-btns {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.progress-btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.remove-btn {
+  background-color: #d11b1b;
+  background-image: url(../img/remove.svg);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  fill: #000000;
+}
+
+.save-btn {
+  background-color: #11aa32;
+  background-image: url(../img/save.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.levels-text{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
 }
