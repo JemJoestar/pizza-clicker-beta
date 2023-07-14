@@ -11,7 +11,8 @@ h6 {
   margin: 0;
 }
 body {
-  background-image: linear-gradient(180deg, #f8be67 0%, #ece285 100%);
+  background-image: linear-gradient(180deg, #f8be67 , #ece285);
+  background-size: 100vh;
   margin: 0;
   font-family: var(--text-font);
 }
@@ -51,7 +52,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .game-pole {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
